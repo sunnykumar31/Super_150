@@ -18,10 +18,24 @@ public class pattern5 {
                 k++;
             }
             j++;
-            space--;
-            star++;
+            
+            if(j<=(n/2)+1){
+                space--;
+                star++;
+            }
+            else{
+                space++;
+                star--;
+            }
             System.out.println();
             // System.out.println();
         }
     }
 }
+// output
+// 5
+//          *  
+//        *   *  
+//      *   *   *  
+//    *   *   *   *  
+//  *   *   *   *   *

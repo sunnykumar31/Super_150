@@ -23,3 +23,9 @@ public class pattern3 {
         }
     }
 }
+// output
+// * * * * *
+//      * * * *
+//          * * *
+//              * *
+//                  *
