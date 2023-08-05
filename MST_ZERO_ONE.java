@@ -102,7 +102,7 @@ public class MST_ZERO_ONE {
         for(int i:ll){
             visited.remove(i);
         }
-        // for(int i:ll) dfs(i);
+        for(int i:ll) dfs(i);
     }
 
 }
